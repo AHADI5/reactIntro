@@ -3,7 +3,12 @@
 function Header () {
   return (
     <nav>
-      <img src = "./reactLogo.png"/>
+      <img src = "./react-2.svg"/>
+      <ul>
+        <li>Pricing</li>
+        <li>About</li>
+        <li>Contacts</li>
+      </ul>
     </nav>
   )
 }
@@ -16,7 +21,7 @@ function Description () {
 
 function Footer() {
   return (
-    <p>&copy 20xx A-2G development. All rights reserved</p>
+    <p>&#169; 20xx A-2G development. All rights reserved</p>
   )
 }
 function Reasons () {
@@ -32,6 +37,7 @@ ReactDOM.render(
 
 <div>
   <Header/>
+  <Description/> 
   <Reasons/>
   <Footer/>
 </div>
