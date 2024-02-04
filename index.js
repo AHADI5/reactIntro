@@ -1,17 +1,4 @@
-
-
-function Header () {
-  return (
-    <nav>
-      <img src = "./react-2.svg"/>
-      <ul>
-        <li>Pricing</li>
-        <li>About</li>
-        <li>Contacts</li>
-      </ul>
-    </nav>
-  )
-} 
+import Header from "./Header.js"
 
 function Description () {
   return (
@@ -21,7 +8,7 @@ function Description () {
 
 function Footer() {
   return (
-    <p>&#169; 20xx A-2G development. All rights reserved</p>
+    <p className = "footer">&#169; 20xx A-2G development. All rights reserved</p>
   )
 }
 function Reasons () {

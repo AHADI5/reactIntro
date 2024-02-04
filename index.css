@@ -14,3 +14,13 @@ ul li  {
     list-style: none;
     padding:10px;
 }
+
+.footer {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+}
+
+nav {
+    background-color: azure;
+}
